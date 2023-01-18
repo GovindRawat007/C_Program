@@ -3,15 +3,16 @@ int main()
 {
     int x[5], y[5];
     int a;
-
+    
+    printf("enter 1st array \n");
     for (a=0;a<=4;a++)
     {
-        printf("enter 1st array ");
         scanf("%d",&x[a]);
     }
+    
+    printf("enter 2st array \n");
     for (a=0;a<=4;a++)
-    {
-        printf("enter 2st array ");
+    {       
         scanf("%d",&y[a]);
     }
     for (a=0;a<=4;a++)
